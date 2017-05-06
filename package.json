@@ -1,0 +1,24 @@
+{
+  "name": "what-shall-we-watch",
+  "version": "1.0.0",
+  "description": "Keep a list of movies to help you choose what to watch",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "opn http://localhost:1111 && node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/entozoon/what-shall-we-watch.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/entozoon/what-shall-we-watch/issues"
+  },
+  "homepage": "https://github.com/entozoon/what-shall-we-watch#readme",
+  "dependencies": {
+    "express": "^4.15.2",
+    "opn-cli": "^3.1.0"
+  }
+}
